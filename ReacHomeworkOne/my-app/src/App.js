@@ -1,5 +1,5 @@
-import LivecycleFuncComponent from "./components/LifecycleFuncComponent";
-import LifecycleClassComponent from "./components/LifecycleClassComponent"
+import Homework from "./components/Homework";
+import CallJson from "./components/CallJson"
 const App = () => {
 
   return (
@@ -7,8 +7,8 @@ const App = () => {
     <div>
    
       <h1>Vo red profesore</h1>
-      <LivecycleFuncComponent></LivecycleFuncComponent>
-      <LifecycleClassComponent></LifecycleClassComponent>
+      <Homework></Homework>
+      <CallJson/>
 
     </div>);
 }
