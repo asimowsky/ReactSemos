@@ -24,11 +24,11 @@ const CreateTodo = (props) => {
   };
 
   return (
-    <div className="container justify-content-center">
+    <div className="container justify-content-center mt-5">
       <div className="d-flex mt-5  justify-content-center">
         <input
           type="text"
-          className="createTodo bg-glass"
+          className="createTodo bg-glass mt-5"
           value={newTodo}
           onChange={(e) => {
             setNewTodo(e.target.value);

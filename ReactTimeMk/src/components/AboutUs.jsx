@@ -3,7 +3,7 @@ import myLogo from "../images/tajmmklogo.png";
 import adminLogo from "../images/asimowskyLogo.png";
 export const AboutUs = () => {
   return (
-    <div className="container-fluid p-5">
+    <div className="container-fluid p-5 mt-5">
       <div className="row">
         <div className="col-md d-flex justify-content-center align-items-center">
           <p className="font-weight-light">
