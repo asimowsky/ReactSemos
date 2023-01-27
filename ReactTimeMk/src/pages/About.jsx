@@ -1,5 +1,7 @@
+import { AboutUs } from "../components/AboutUs";
+
 export const About = () => (
   <div>
-    <h1>HEY</h1>
+    <AboutUs />
   </div>
 );

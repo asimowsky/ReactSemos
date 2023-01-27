@@ -3,7 +3,7 @@ import myLogo from "../images/tajmmklogo.png";
 export const Navigation = () => {
   return (
     <div>
-      <nav className="navbar navbar-toggleable-md navbar-dark bg-dark transparent d-flex justify-content-center">
+      <nav className="navbar navbar-toggleable-md navbar-dark bg-dark transparent d-flex justify-content-center fixed-top ">
         <a className="navbar-brand ">
           <img src={myLogo} style={{ width: "150px" }} alt="" />
         </a>

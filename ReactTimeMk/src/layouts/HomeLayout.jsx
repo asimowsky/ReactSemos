@@ -6,9 +6,9 @@ import { Outlet } from "react-router-dom";
 
 export const HomeLayout = () => (
   <div>
-    <div className="container w-75  d-flex align-items-center justify-content-center mt-3">
-      <nav aria-label="breadcrumb d-flex align-items-center">
-        <ol className="breadcrumb mt-3 bg-glass ">
+    <div className="container w-75  d-flex align-items-center justify-content-center mt-5">
+      <nav aria-label="breadcrumb d-flex align-items-center ">
+        <ol className="breadcrumb mt-5 bg-glass ">
           <li className="breadcrumb-item">
             <Link to={`/`}>Sports</Link>
           </li>
@@ -18,7 +18,7 @@ export const HomeLayout = () => (
         </ol>
       </nav>
     </div>
-    <div className="container-fluid mt-5 mainContainer ">
+    <div className="container-fluid mt-2 mainContainer ">
       <div className="row">
         <div className="col-md  d-flex justify-content-center position-relative">
           <img
