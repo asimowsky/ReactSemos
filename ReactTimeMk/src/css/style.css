@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:ital@1&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(
+    179.4deg,
+    rgb(12, 20, 69) -16.9%,
+    rgb(71, 30, 84) 119.9%
+  );
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.todoFont {
+  font-family: sans-serif;
+  font-size: 32px;
+}
+
+table th {
+  font-size: 25px;
+  color: #fff;
+  padding: 18px;
+}
+
+table {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.386);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 0px solid rgba(255, 255, 255, 0.3);
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+
+table td {
+  font-size: 22px;
+  color: #fff;
+  padding: 20px;
+}
+
+.titleAlign {
+  text-align: justify;
+}
+
+.bg-glass {
+  background: rgba(16, 16, 16, 0.398);
+  border-radius: 10px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.9px);
+  -webkit-backdrop-filter: blur(6.9px);
+  border: 1px solid rgba(255, 255, 255, 0.56);
+  transition: 0.4s;
+}
+
+.p-10 {
+  padding: 10px;
+}
+
+.h-inverse:hover {
+  background-color: rgb(193, 191, 191);
+  cursor: pointer;
+}
+
+.createTodo {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.createTodoBtn {
+  padding: 5px;
+  font-size: 17px;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 7px;
+  transition: 0.4s all;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.56);
+}
+
+.createTodoBtn:hover {
+  background-color: #f4d03f;
+  cursor: pointer;
+}
+
+.p-5 {
+  padding: 5px;
+}
+
+/* BOOTSTRAP  */
+
+.transparent {
+  background-color: rgba(0, 0, 0, 0.505) !important;
+}
+.navbar {
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.nav-item {
+  padding: 10px;
+  font-size: 23px;
+  color: #fff !important;
+}
+
+.banner {
+  width: 400px;
+
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.mainContent {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sportCard {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(69, 114, 255, 0.85);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(1.4px);
+  -webkit-backdrop-filter: blur(1.4px);
+  border: 1px solid rgba(69, 114, 255, 0.26);
+  margin-bottom: 15px;
+}
+
+.sportCard img {
+  border-radius: 16px;
+}
+
+.plLogoContrast {
+  filter: invert(100%);
+  filter: hue-rotate(60%);
+}
+
+.gradientHeading {
+  font-size: 49px;
+  font-weight: bolder;
+  background: -webkit-linear-gradient(rgb(76, 74, 74), rgb(255, 255, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tweetImage {
+  border-radius: 50%;
+  width: 100px;
+  height: 85px;
+  margin-right: 20px;
+}
+
+.tweetBg {
+  background: rgba(255, 255, 255, 0.814);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.452);
+  backdrop-filter: blur(6.7px);
+  -webkit-backdrop-filter: blur(6.7px);
+  border: 1px solid rgba(255, 255, 255, 0.42);
+  color: black;
+}
+
+.twitterLogo {
+  width: 50px;
+  margin-left: 20px;
+}

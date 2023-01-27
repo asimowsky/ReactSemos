@@ -1,0 +1,14 @@
+[token] - ghp_RokoaDU5nOJDuooHvBYcG0QFuGQGws4basdasd
+
+git add .
+git commit -m "update"
+git remote set-url origin https://ghp_RokoaDU5nOJDuooHvBYcG0QFuGQGws4asdasd@github.com/nevengjoreski/generacija20.git
+
+
+npx create-react-app .
+
+// to install and start the application
+npm install
+npm start
+
+https://www.youtube.com/watch?v=ulQA5tjJark
