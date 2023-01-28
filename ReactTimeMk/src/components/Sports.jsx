@@ -1,7 +1,7 @@
 import React from "react";
 import leagueLogo from "../images/premierleague.png";
 import { News, Highlights } from "../constants";
-
+import messi from "../images/messi.png";
 export const Sports = () => {
   return (
     <div>
@@ -15,10 +15,10 @@ export const Sports = () => {
       <h1 className="text-center gradientHeading">Premier League News</h1>
       <div className="container p-5">
         <div className="row">
-          <div className="col-md">
+          <div className="col-md-7">
             {News.map((sports) => (
               <div key={sports.id}>
-                <div className="card sportCard">
+                <div className="card sportCard w-full">
                   <img src={sports.image} className="img-fluid" alt="" />
                   <div className="card-body">
                     <h5 className="card-title">{sports.title}</h5>
@@ -28,21 +28,37 @@ export const Sports = () => {
               </div>
             ))}
           </div>
-          <div className="col-md">
-            <div>
-              <ul>
-                {Highlights.map((data) => (
-                  <div key={data.id}>
-                    <p>{data.title}</p>
-                    <iframe
-                      src={data.url}
-                      width="500"
-                      height="315"
-                      frameborder="0"
-                    ></iframe>
-                  </div>
-                ))}
-              </ul>
+          <div className="col-md ">
+            <div className="tweetBg p-4 d-flex justify-content-center flex-column">
+              <h1 className="text-center">Highlights</h1>
+              {Highlights.map((data) => (
+                <div key={data.id}>
+                  <p className="text-center">{data.title}</p>
+                  <iframe
+                    src={data.url}
+                    frameborder="0"
+                    className="w-full"
+                    style={{ borderRadius: "20px" }}
+                  ></iframe>
+                </div>
+              ))}
+              {Highlights.map((data) => (
+                <div key={data.id}>
+                  <p className="text-center">{data.title}</p>
+                  <iframe
+                    src={data.url}
+                    frameborder="0"
+                    className="w-full"
+                    style={{ borderRadius: "20px" }}
+                  ></iframe>
+                </div>
+              ))}
+              <img
+                src={messi}
+                className="img-fluid"
+                style={{ width: "300px" }}
+                alt=""
+              />
             </div>
           </div>
         </div>

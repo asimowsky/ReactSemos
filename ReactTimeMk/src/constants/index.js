@@ -50,11 +50,11 @@ export const Highlights = [
     title: "Tottenham Highlights",
     url: "https://www.youtube.com/embed/46xnj-xPRXo",
   },
-  {
-    id: 3,
-    title: "Wolves Highlights",
-    url: "https://www.youtube.com/embed/TXuKGRarzBU",
-  },
+  // {
+  //   id: 3,
+  //   title: "Wolves Highlights",
+  //   url: "https://www.youtube.com/embed/TXuKGRarzBU",
+  // },
   {
     id: 4,
     title: "Everton Highlights",
