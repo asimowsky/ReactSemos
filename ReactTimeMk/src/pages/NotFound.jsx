@@ -5,7 +5,7 @@ import oldgazette from "../images/oldgazette.png";
 export const NotFound = () => {
   const [quote, setQuote] = useState();
   useEffect(() => {
-    fetch("http://api.quotable.io/random")
+    fetch("https://api.quotable.io/random")
       .then((res) => {
         if (res.ok && res.status === 200) {
           return res.json();
