@@ -15,7 +15,7 @@ export const Sports = () => {
       <h1 className="text-center gradientHeading">Premier League News</h1>
       <div className="container p-5">
         <div className="row">
-          <div className="col-md-7">
+          <div className="col-md-6">
             {News.map((sports) => (
               <div key={sports.id}>
                 <div className="card sportCard w-full">
@@ -28,7 +28,7 @@ export const Sports = () => {
               </div>
             ))}
           </div>
-          <div className="col-md ">
+          <div className="col-md d-flex justify-content-center">
             <div className="tweetBg p-4 d-flex justify-content-center flex-column">
               <h1 className="text-center">Highlights</h1>
               {Highlights.map((data) => (
