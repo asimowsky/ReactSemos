@@ -15,7 +15,7 @@ export const NotFound = () => {
   }, []);
   return (
     <div>
-      <div className="container-fluid d-flex justify-content-center align-items-center">
+      <div className="container-fluid d-flex justify-content-center align-items-center mt-5">
         <div className="row position-relative">
           <img
             src={oldgazette}
